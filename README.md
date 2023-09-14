@@ -1,5 +1,5 @@
 # Prueba técnica de Scandinavian Travels para Full Stack Developer por Valentín Ayesa
-
+<a href="https://www.linkedin.com/in/valentinayesa/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 ## Procedimiento de puesta en marcha:
 
 Clonar el repositorio
