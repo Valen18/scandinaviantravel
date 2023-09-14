@@ -8,8 +8,9 @@ Clonar el repositorio
 
 Una vez clonado, en un terminal ejecutar los siguientes comandos dentro de la carpeta del proyecto:
 
-> composer install 
-> npm install
+    composer install 
+
+    npm install
 
 A continuación renombre el archivo ".env.example" a ".env" y configura los datos de la base de datos.
 En mi caso:
@@ -25,25 +26,26 @@ Todo lo demás, déjalo por defecto en este ejercicio.
 
 El siguiente paso es ejecutar los siguientes comandos:
 
-> php artisan key:generate 
-> php artisan storage:link
+    php artisan key:generate 
+
+    php artisan storage:link
 
 Ahora ejecuta las migraciones y los seeders con los siguientes comandos desde la consola (siempre en el directorio del proyecto):
 
-> php artisan migrate && php artisan db:seed
+    php artisan migrate && php artisan db:seed
 
 Cuando termine necesitarás ejecutar en la consola:
 
-> npm run dev
+    npm run dev
 
 Y abrir una nueva consola en el directorio del proyecto para ejecutar:
 
-> php artisan serve
+    php artisan serve
 
 Esto ejecutará el servidor de desarrollo Vite y a la vez el servidor Artisan nativo de Laravel.
 A continuación podrá acceder a la aplicación desde la url que indique la consola, normalmente: .
 
-> http://127.0.0.1:8000/
+    http://127.0.0.1:8000/
 
 ## Procedimiento ejecutado para la creación del proyecto.
 
