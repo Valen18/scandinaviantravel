@@ -88,8 +88,10 @@
 				
                 if (isFavorite) {
                     heartIcon.classList.remove('text-blue-500');
+					heartIcon.classList.add('text-gray-500');
                 } else {
                     heartIcon.classList.add('text-blue-500');
+					heartIcon.classList.remove('text-gray-500');
                 }
             }
 
