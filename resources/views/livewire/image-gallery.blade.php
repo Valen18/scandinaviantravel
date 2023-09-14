@@ -81,9 +81,11 @@
         </div>
         <script>     
             function toggleFavorite(imageId) {
+				
                 const heartIcon = document.getElementById(`fav-${imageId}`);
-                const isFavorite = heartIcon.classList.contains('text-red-500');
-
+				
+                const isFavorite = heartIcon.classList.contains('text-blue-500');
+				
                 if (isFavorite) {
                     heartIcon.classList.remove('text-blue-500');
                 } else {
